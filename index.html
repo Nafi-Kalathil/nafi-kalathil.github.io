@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nafi Majeed — HR &amp; International Management</title>
+<meta name="description" content="Portfolio of Nafi Majeed — HR coordinator with two years in Dubai, now reading International Management in Dresden. CIPD Level 5 Associate Member.">
+<meta name="author" content="Nafi Majeed">
+<meta property="og:title" content="Nafi Majeed — HR &amp; International Management">
+<meta property="og:description" content="Two years of HR operations in Dubai. Now reading International Management in Dresden.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23C4442B'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' fill='%23F2EDE4' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..700&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..600&family=IBM+Plex+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Tailwind supplies the design-token layer (@theme emits the CSS variables consumed by styles.css) -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+  @theme {
+    /* ---- paper & ink ---- */
+    --color-bone:        #F2EDE4;
+    --color-bone-deep:   #E8E0D1;
+    --color-ink:         #16130F;
+    --color-ink-soft:    #4A443B;
+    --color-ink-faint:   #8A8175;
+
+    /* ---- film (inverted) ---- */
+    --color-film:        #14120F;
+    --color-film-deep:   #1D1A16;
+    --color-parchment:   #EFE7D8;
+    --color-parchment-soft: #B9B0A1;
+    --color-parchment-faint: #7E766A;
+
+    /* ---- data marks: validated categorical pair (see README) ---- */
+    --color-vermilion:     #C4442B;
+    --color-vermilion-lit: #E4573C;
+    --color-indigo:        #33489B;
+    --color-indigo-lit:    #7C8FE0;
+
+    /* ---- type ---- */
+    --font-display: "Bodoni Moda", Didot, "Times New Roman", serif;
+    --font-body:    "Familjen Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+    --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+</style>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="col-guides" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<a class="skip" href="#profile">Skip to content</a>
+
+<!-- ══════════ MASTHEAD ══════════ -->
+<header class="masthead">
+  <div class="masthead-in">
+    <a class="monogram" href="#top" aria-label="Nafi Majeed, back to top">
+      <span class="monogram-mark" id="monogramMark">NM</span>
+      <span class="monogram-name" id="monogramName">Nafi&nbsp;Majeed</span>
+    </a>
+
+    <nav class="nav" aria-label="Sections">
+      <a href="#profile"><b>01</b> <span id="navLabelProfile">Profile</span></a>
+      <a href="#experience"><b>02</b> <span id="navLabelExperience">Experience</span></a>
+      <a href="#education"><b>03</b> <span id="navLabelEducation">Education</span></a>
+      <a href="#capabilities"><b>04</b> <span id="navLabelCapabilities">Capabilities</span></a>
+      <a href="#languages"><b>05</b> <span id="navLabelLanguages">Languages</span></a>
+      <a href="#contact"><b>06</b> <span id="navLabelContact">Contact</span></a>
+    </nav>
+
+    <button class="toggle" id="themeToggle" type="button" aria-pressed="false">
+      <span class="toggle-face" data-on="Paper" data-off="Film"></span>
+    </button>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="shell hero-grid">
+
+    <aside class="dossier" id="dossierFacts" aria-label="Summary details"></aside>
+
+    <div class="hero-main">
+      <p class="eyebrow rv" style="--d:0" id="heroEyebrow">Human Resources <i>·</i> International Management</p>
+
+      <h1 class="bigname">
+        <span class="rvline"><i style="--d:1" id="heroFirstName">Nafi</i></span>
+        <span class="rvline hollow"><i style="--d:2" id="heroLastName">Majeed</i></span>
+      </h1>
+
+      <p class="lede rv" style="--d:5" id="heroLede">
+        Two years running HR operations out of Dubai — visas, records, government
+        liaison — now reading <em>International Management</em> in Germany. I like the
+        unglamorous part: the systems underneath that let people get on with their work.
+      </p>
+
+      <div class="hero-cta rv" style="--d:6">
+        <a class="btn btn-solid" id="heroEmailLink" href="mailto:Nafi.kalathil@gmail.com">
+          <span id="heroEmailText">Nafi.kalathil@gmail.com</span> <span aria-hidden="true">↗</span>
+        </a>
+        <a class="btn btn-ghost" id="heroDownloadLink" href="assets/NAFEEA%20NAFEEA_Resume.pdf" download>
+          Download CV <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="stamp" aria-hidden="true">
+      <div class="stamp-in">
+        <span class="stamp-top" id="stampTop">Chartered Institute of<br>Personnel &amp; Development</span>
+        <span class="stamp-mid" id="stampMid">Level&nbsp;5</span>
+        <span class="stamp-bot" id="stampBot">Associate Member</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell hero-foot">
+    <div class="clocks" id="clocksContainer">
+      <div class="clock"><span>Dubai</span><b data-clock-tz="Asia/Dubai">—</b></div>
+      <div class="clock"><span>Dresden</span><b data-clock-tz="Europe/Berlin">—</b></div>
+    </div>
+    <a class="cue" href="#profile"><span>Scroll</span><i aria-hidden="true"></i></a>
+  </div>
+</section>
+
+<!-- ══════════ TICKER ══════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack">
+    <span>Employee mobility</span><em>✦</em><span>UAE labour compliance</span><em>✦</em>
+    <span>MOHRE</span><em>✦</em><span>Visa &amp; immigration</span><em>✦</em>
+    <span>Employee records</span><em>✦</em><span>CIPD Level 5</span><em>✦</em>
+    <span>Erasmus+</span><em>✦</em><span>Data governance</span><em>✦</em>
+  </div>
+</div>
+
+<main>
+
+<!-- ══════════ 01 PROFILE ══════════ -->
+<section class="section" id="profile">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">01</span>
+      <h2 class="sechead-title" id="profileTitle">Profile</h2>
+      <span class="sechead-tag" id="profileTag">Who is filing this</span>
+    </div>
+
+    <div class="profile-grid">
+      <div class="stats rv" id="profileStats">
+        <div class="stat"><b>02</b><span>Years of HR experience, Dubai</span></div>
+        <div class="stat"><b>05</b><span>Languages spoken</span></div>
+        <div class="stat"><b>02</b><span>Degrees — BA held, MA in progress</span></div>
+        <div class="stat"><b>L5</b><span>CIPD Associate Membership</span></div>
+      </div>
+
+      <div class="prose rv" style="--d:1" id="profileProse">
+        <p>
+          International Management Master's student based in the UAE, bringing two
+          years of hands-on HR experience from Dubai. Experienced in turning data,
+          processes and people insights into structured onboarding and HR support in
+          fast-paced, multicultural environments.
+        </p>
+        <p>
+          CIPD Associate Member with a strong curiosity for global talent management,
+          learning initiatives and digital platforms.
+        </p>
+        <blockquote>
+          Motivated by building systems that help people grow and organizations scale.
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 02 EXPERIENCE ══════════ -->
+<section class="section" id="experience">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">02</span>
+      <h2 class="sechead-title" id="experienceTitle">Experience</h2>
+      <span class="sechead-tag" id="experienceTag">Mar 2023 — Feb 2025</span>
+    </div>
+
+    <div id="experienceRoles">
+      <article class="role rv">
+        <div class="role-head">
+          <div>
+            <h3 class="role-title">HR Coordinator</h3>
+            <p class="role-org">Al Madina Group <i>·</i> Dubai, United Arab Emirates</p>
+          </div>
+          <p class="role-dates">March 2023<br><span>February 2025</span></p>
+        </div>
+
+        <ol class="duties">
+          <li class="duty rv" style="--d:1">
+            <span class="duty-num">01</span>
+            <h4>Mobility &amp; immigration</h4>
+            <p>Managed employee mobility and immigration end to end — work and business
+               visas, renewals and cancellations — in line with UAE labour and
+               immigration regulations.</p>
+          </li>
+          <li class="duty rv" style="--d:2">
+            <span class="duty-num">02</span>
+            <h4>Government liaison</h4>
+            <p>Acted as the key point of contact with government authorities, handling
+               official submissions and following each one through to resolution.</p>
+          </li>
+          <li class="duty rv" style="--d:3">
+            <span class="duty-num">03</span>
+            <h4>Records &amp; systems</h4>
+            <p>Maintained accurate employee records across HR systems including MOHRE,
+               keeping documentation consistent and audit-ready.</p>
+          </li>
+          <li class="duty rv" style="--d:4">
+            <span class="duty-num">04</span>
+            <h4>Employee support</h4>
+            <p>Supported employees through residency permits, Emirates IDs and the
+               related paperwork that surrounds a move.</p>
+          </li>
+          <li class="duty rv" style="--d:5">
+            <span class="duty-num">05</span>
+            <h4>Data governance</h4>
+            <p>Held the line on data accuracy and confidentiality, keeping HR operations
+               smooth across the full employee life cycle.</p>
+          </li>
+        </ol>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CHRONOLOGY ══════════ -->
+<section class="band">
+  <div class="shell">
+    <figure class="chrono rv">
+      <figcaption class="chrono-cap">
+        <h3>Chronology</h3>
+        <p id="chronoSubtitle">Study and work, 2020 to present</p>
+      </figcaption>
+
+      <div class="chrono-legend">
+        <span class="key key--study"><i></i>Study</span>
+        <span class="key key--work"><i></i>Work</span>
+      </div>
+
+      <div class="chrono-plot" id="chronoPlot">
+        <div class="chrono-row">
+          <p class="chrono-label">BA (Hons) Business Administration<span>Liverpool John Moores University</span></p>
+          <div class="chrono-track"><span class="bar bar--study" style="--x:10.2%;--w:44.0%"></span></div>
+          <p class="chrono-when">Sep 2020 — Aug 2023</p>
+        </div>
+
+        <div class="chrono-row">
+          <p class="chrono-label">HR Coordinator<span>Al Madina Group, Dubai</span></p>
+          <div class="chrono-track"><span class="bar bar--work" style="--x:48.0%;--w:29.0%"></span></div>
+          <p class="chrono-when">Mar 2023 — Feb 2025</p>
+        </div>
+
+        <div class="chrono-row">
+          <p class="chrono-label">MA International Management<span>Dresden University of Applied Sciences</span></p>
+          <div class="chrono-track"><span class="bar bar--study bar--now" style="--x:79.5%;--w:20.5%"></span></div>
+          <p class="chrono-when">Apr 2025 — Present</p>
+        </div>
+
+        <div class="chrono-axis" aria-hidden="true">
+          <i style="--x:15.2%">2021</i><i style="--x:30.3%">2022</i><i style="--x:45.5%">2023</i>
+          <i style="--x:60.6%">2024</i><i style="--x:75.8%">2025</i><i style="--x:90.9%">2026</i>
+        </div>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ 03 EDUCATION ══════════ -->
+<section class="section" id="education">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">03</span>
+      <h2 class="sechead-title" id="educationTitle">Education</h2>
+      <span class="sechead-tag" id="educationTag">United Kingdom &amp; Germany</span>
+    </div>
+
+    <div class="entries" id="educationEntries">
+      <article class="entry rv">
+        <p class="entry-when">April 2025 — Present</p>
+        <div class="entry-body">
+          <h3>Masters in International Management</h3>
+          <p class="entry-org">Dresden University of Applied Sciences <i>·</i> Germany</p>
+        </div>
+        <p class="entry-flag">DE</p>
+      </article>
+
+      <article class="entry rv" style="--d:1">
+        <p class="entry-when">September 2020 — August 2023</p>
+        <div class="entry-body">
+          <h3>BA (Hons) Business Administration</h3>
+          <p class="entry-org">Liverpool John Moores University <i>·</i> United Kingdom</p>
+        </div>
+        <p class="entry-flag">UK</p>
+      </article>
+    </div>
+
+    <div class="creds rv">
+      <p class="creds-label" id="credsLabel">Awards &amp; certifications</p>
+      <div class="creds-grid" id="credsGrid">
+        <div class="cred">
+          <span class="seal" aria-hidden="true">✦</span>
+          <h4>CIPD Level 5</h4>
+          <p>Associate Membership</p>
+        </div>
+        <div class="cred">
+          <span class="seal" aria-hidden="true">✦</span>
+          <h4>Erasmus+</h4>
+          <p>Scholarship</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 04 CAPABILITIES ══════════ -->
+<section class="section" id="capabilities">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">04</span>
+      <h2 class="sechead-title" id="capabilitiesTitle">Capabilities</h2>
+      <span class="sechead-tag" id="capabilitiesTag">Tools &amp; technical skills</span>
+    </div>
+
+    <div class="cap-grid">
+      <div class="cap-col rv">
+        <p class="cap-label" id="skillsLabel">HR &amp; operations</p>
+        <ul class="skills" id="skillsList">
+          <li><b>01</b><span>Employee Records Management</span></li>
+          <li><b>02</b><span>HR Documentation &amp; Compliance</span></li>
+          <li><b>03</b><span>Stakeholder Coordination</span></li>
+          <li><b>04</b><span>Data Governance &amp; Confidentiality</span></li>
+        </ul>
+      </div>
+
+      <div class="cap-col rv" style="--d:1">
+        <p class="cap-label" id="toolsLabel">Office &amp; productivity</p>
+        <ul class="chips" id="toolsList">
+          <li>Microsoft Excel</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft PowerPoint</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 05 LANGUAGES ══════════ -->
+<section class="section" id="languages">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">05</span>
+      <h2 class="sechead-title" id="languagesTitle">Languages</h2>
+      <span class="sechead-tag" id="languagesTag">Five, across three scripts</span>
+    </div>
+
+    <ul class="langs" id="languagesList">
+      <li class="lang rv" style="--d:0">
+        <h3>Malayalam</h3>
+        <p class="lang-level">Native</p>
+        <div class="meter" role="img" aria-label="Malayalam: native, 5 of 5">
+          <i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i>
+        </div>
+      </li>
+      <li class="lang rv" style="--d:1">
+        <h3>Hindi</h3>
+        <p class="lang-level">Fluent</p>
+        <div class="meter" role="img" aria-label="Hindi: fluent, 4 of 5">
+          <i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i>
+        </div>
+      </li>
+      <li class="lang rv" style="--d:2">
+        <h3>English</h3>
+        <p class="lang-level">C1</p>
+        <div class="meter" role="img" aria-label="English: C1, 4 of 5">
+          <i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i>
+        </div>
+      </li>
+      <li class="lang rv" style="--d:3">
+        <h3>Arabic</h3>
+        <p class="lang-level">Beginner</p>
+        <div class="meter" role="img" aria-label="Arabic: beginner, 1 of 5">
+          <i class="on"></i><i></i><i></i><i></i><i></i>
+        </div>
+      </li>
+      <li class="lang rv" style="--d:4">
+        <h3>German</h3>
+        <p class="lang-level">Beginner</p>
+        <div class="meter" role="img" aria-label="German: beginner, 1 of 5">
+          <i class="on"></i><i></i><i></i><i></i><i></i>
+        </div>
+      </li>
+    </ul>
+    <p class="scale-key"><span>Beginner</span><i aria-hidden="true"></i><span>Native</span></p>
+  </div>
+</section>
+
+<!-- ══════════ 06 CONTACT ══════════ -->
+<section class="section section--contact" id="contact">
+  <div class="shell">
+    <div class="sechead rv">
+      <span class="sechead-num">06</span>
+      <h2 class="sechead-title" id="contactTitle">Contact</h2>
+      <span class="sechead-tag" id="contactTag">End of file</span>
+    </div>
+
+    <div class="contact rv">
+      <p class="contact-kicker" id="contactKicker">Say hello —</p>
+      <a class="contact-mail" id="contactMailLink" href="mailto:Nafi.kalathil@gmail.com">Nafi.kalathil@gmail.com</a>
+
+      <div class="contact-actions">
+        <button class="btn btn-solid" id="copyMail" type="button">
+          <span id="copyLabel">Copy address</span>
+        </button>
+        <a class="btn btn-ghost" id="contactDownloadLink" href="assets/NAFEEA%20NAFEEA_Resume.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <dl class="contact-meta" id="contactMeta">
+        <div><dt>Based</dt><dd>Sharjah, United Arab Emirates</dd></div>
+        <div><dt>Studying</dt><dd>Dresden, Germany</dd></div>
+        <div><dt>Nationality</dt><dd>Indian</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="colophon">
+  <div class="shell colophon-in">
+    <p>© <span id="year">2026</span> <span id="footerName">Nafi Majeed</span></p>
+    <p class="colophon-set">Set in Bodoni Moda, Familjen Grotesk &amp; IBM Plex Mono</p>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="content.js"></script>
+<script src="render.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

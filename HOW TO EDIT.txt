@@ -1,0 +1,67 @@
+HOW TO EDIT THIS WEBSITE
+=========================
+
+Everything on this website — your name, job history, dates, skills,
+languages, contact info — lives in ONE file:
+
+    content.js
+
+That is the only file you should ever need to open.
+
+
+TO MAKE A CHANGE
+-----------------
+1. Open "content.js" in any plain text editor (TextEdit on Mac, Notepad
+   on Windows, or a code editor like VS Code if you have one).
+2. Find the line with the text you want to change. It'll be sitting
+   between "double quotes", like "this".
+3. Type your new text between the quotes, leaving the quotes themselves
+   in place.
+4. Save the file.
+5. Open (or refresh) "index.html" in your web browser to see the change.
+   Just double-click index.html — no internet connection or install
+   needed to preview it.
+
+That's it. There's a longer explanation with examples for every section
+written as comments at the top and throughout content.js itself.
+
+
+THE THREE RULES
+-----------------
+1. Keep text wrapped in "double quotes".
+2. Keep the comma , at the end of each line inside a { } or [ ] group
+   (except the last line in that group).
+3. Never delete a { } or [ ] symbol — only edit what's between the quotes.
+
+
+IF SOMETHING BREAKS
+---------------------
+If the page goes blank or looks wrong after saving, you probably removed
+a quote, comma, or bracket by accident. Undo your last edit (Cmd+Z or
+Ctrl+Z) and save again. It's a good habit to save a backup copy of
+content.js before making a big round of changes, so you always have
+something to go back to.
+
+
+DO NOT EDIT
+-------------
+These files make the page look and behave the way it does — you never
+need to open them just to update your info:
+
+    index.html    the page's structure
+    styles.css    fonts, colors, spacing, animations
+    script.js     the theme switch, clocks, scroll effects
+    render.js     turns content.js into the actual page
+
+There's one folder you WILL touch, though:
+
+    assets/    your photo (nafi.png) and your CV (the PDF)
+
+To swap in your real photo: drop your image into the "assets" folder and
+name it exactly "nafi.png" (replacing the placeholder) — the site will
+pick it up automatically, no other changes needed. If you'd rather keep
+a different file name (e.g. "nafi.jpg"), that's fine too — just update
+the "photo" line near the top of content.js so it points at the new name.
+
+Same idea for your CV: drop the new PDF into "assets", then update the
+"resumeFile" line in content.js so it matches the new file's exact name.
